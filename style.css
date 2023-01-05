@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+body {
+  background-color: darkorchid;
+}
+.gamename {
+  width: 1000px;
+  margin: auto;
+}
+h1 {
+  margin: 100px 70px;
+  text-align: center;
+  font-size: 28px;
+  justify-content: center;
+  color: white;
+}
+#playnow {
+  width: 180px;
+  height: 50px;
+  position: relative;
+  left: 430px;
+  bottom: 50px;
+  font-size: 18px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 25px;
+}
+.startgame {
+  width: 1000px;
+  height: 1000px;
+}
+.game {
+  width: 600px;
+  height: 350px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 330px;
+  bottom: 200px;
+}
+
+.rock {
+  margin-left: 10px;
+  width: 110px;
+  height: 130px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  transform: rotate(-45deg);
+}
+.rockicon {
+  position: relative;
+  right: 60px;
+  top: 100px;
+  transform: rotate(-45deg);
+}
+.paper {
+  margin-left: 10px;
+  width: 110px;
+  height: 130px;
+}
+.papericon {
+  position: absolute;
+  left: 250px;
+}
+.scissor {
+  margin-left: 10px;
+  width: 110px;
+  height: 130px;
+  position: relative;
+  top: 100px;
+  left: 40px;
+  transform: rotate(45deg);
+}
+.scissoricon {
+  transform: rotate(45deg);
+  position: relative;
+  right: 135px;
+  left: 420px;
+  bottom: 50px;
+}
+
+#start {
+  position: relative;
+  top: 280px;
+  margin-left: 260px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  background-color: green;
+}
+#playerchoice {
+  margin-left: 10px;
+  position: relative;
+  top: 40px;
+}
+#computerchoice {
+  margin-left: 320px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 5px;
+}
+#res {
+  margin-left: 10px;
+  position: relative;
+  bottom: 60px;
+}
+#compres {
+  margin-left: 320px;
+  margin-top: 50px;
+  position: relative;
+  bottom: 130px;
+}
+#totround {
+  position: relative;
+  bottom: 450px;
+  left: 10px;
+}
+#round {
+  position: relative;
+  bottom: 490px;
+  left: 270px;
+}
+.play {
+  font-size: 20px;
+  color: white;
+}
+.output {
+  font-size: 20px;
+  color: white;
+}
+.tryagain {
+  position: relative;
+  bottom: 730px;
+  left: 560px;
+  border: none;
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background-color: yellowgreen;
+}

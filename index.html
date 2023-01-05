@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER AND SCISSORS GAME</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="mainpage">
+      <div class="gamename">
+        <h1 classname="gametitle"> ROCK, PAPER AND SCISSORS</h1>
+        <input type="button" id="playnow" value="PLAY NOW ▶" />
+      </div>
+    </form>
+    <form id="gamepage">
+      <div class="startgame">
+        <div class="game">
+          <div class="buttons">
+            <input type="button" class="rock" id="ROCK">
+              <img class="rockicon" id="ROCK" src="./images/rock.png" />
+            </input>
+            <input type="button" class="paper" id="PAPER">
+              <img class="papericon" id="PAPER" src="./images/paper.png" />
+            </input>
+            <input type="button"class="scissor" id="SCISSOR"value="">
+              <img
+                class="scissoricon"
+                id="SCISSOR"
+                src="./images/scissors.png"
+              />
+            </input>
+          </div>
+          
+          <div class="play">
+            <p id="playerchoice"></p>
+            <p id="computerchoice"></p>
+          </div>
+          <div class="output">
+            <p id="totround"></p>
+            <p id="round"></p>
+            <p id="res"></p>
+            <p id="compres"></p> 
+          </div>
+          <div class="winner"><h1 id="winner"></h1></div>
+        </div>
+      </div>
+      <button class="tryagain" id="tryagain">Try Again</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
